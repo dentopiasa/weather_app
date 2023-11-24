@@ -1,0 +1,12 @@
+.submitBtn {
+    height: 25px;
+    width: 50px;
+}
+
+body {
+    background-color: darkgrey;
+}
+.panel {
+    display: flex;
+    align-items: center;
+}
