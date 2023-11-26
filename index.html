@@ -7,9 +7,14 @@
     <title>Weather App</title>
 </head>
 <body>
-    <div class="panel">
+    <div id="displayInfo" class="displayInfo">
+        <div id="displayCity"></div>
+        <div id="displayTemp"></div>
+        <div id="displayTime"></div>
+    </div>
+    <div class="search">
         <label for city>City</label>
-        <input type="text" value="" id="cityInput">
+        <input type="text" value="" id="cityInput" placeholder="search location">
         <button type="submit" class="submitBtn"></button>
     </div>
 <script src="app.js"></script>
