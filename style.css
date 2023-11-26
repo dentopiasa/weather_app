@@ -1,7 +1,13 @@
 body {
     background-color: darkslategrey;
 }
-.search {
+.displayInfo {
+    color: white;
+}
+
+
+
+.searchBox {
     display: flex;
     align-items: center;
 }
